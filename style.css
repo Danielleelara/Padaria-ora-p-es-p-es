@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+  }
+
+#titulo{
+    text-align: center;
+    color: rgb(175, 40, 62);
+  }
+
+body {
+    text-align: center;
+    font-size: 15px;
+    border-radius: 4px;
+    margin: 0px;
+    padding-right: 500px;
+    padding-left: 500px;
+    border: 1px;
+    background: #f2f2f2;
+    font-family: Karla, sans-serif;
+  }
+  .cadastro {
+    padding: 30px 80px;
+    border: 1px solid black;
+  }
+    
+  #form fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #form fieldset .form-field {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .form-field input {
+    width: 100%;
+  }
+  
+  #submitBtn {
+    margin-top: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+  }
+  
+  
+  .table-container {
+    border: 1px solid black;
+    margin-top: 10px;
+  
+  }
+  
+  .table thead tr {
+    width: 100%;
+  }
